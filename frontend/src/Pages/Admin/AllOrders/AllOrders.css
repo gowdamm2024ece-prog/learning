@@ -1,0 +1,98 @@
+.all-orders-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.all-orders-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.orders-table thead {
+  background-color: #34495e;
+}
+
+.orders-table th {
+  padding: 12px;
+  color: #fff;
+  text-align: left;
+}
+
+.orders-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.orders-table tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.edit-btn {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #2980b9;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.status-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.shipped {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.status-badge.yet-to-deliver {
+  background: #fde68a;
+  color: #d97706;
+}
+
+.status-badge.delivered {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.orders-table select {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
