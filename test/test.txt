@@ -2,5 +2,3 @@ checking
 test
 commit 1
 commit 2
-this is the right commit
-reset
